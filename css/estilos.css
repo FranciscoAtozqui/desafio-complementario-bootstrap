@@ -222,6 +222,8 @@ section#inicio {
 }
 
 
+
+
 /*NIVELES*/
 
 .container__niveles-img{
@@ -284,6 +286,7 @@ aside{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    height: 900px;
 }
 
 .inscribirme__titulo{
@@ -296,80 +299,13 @@ aside{
     color: #fff;
 }
 
-.form__container{
-    font-size: 15px;
-    width: 40%;
-    padding: 16px;
-    margin: 0 auto;
-    border: 5px solid #ff7733;
+form{
     color: #fff;
 }
 
-form label{
-    font-size: 20px;
-    font-weight: bold;
+.contacto-footer{
+    margin-top: 0;
 }
-
-.article{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-}
-
-.article input{
-    margin-left: 30px;
-    margin-right: 30px;
-    border: 1px solid #ff7733;
-    border-radius: 2px;
-}
-
-.info {
-    padding: 30px;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-}
-
-.form__level{
-    display: inline-block;
-}
-
-
-.info input{
-    margin-left: 30px;
-    margin-right: 30px;
-    border: 1px solid #ff7733;
-    border-radius: 2px;
-}
-
-.form__actividades{
-    display: inline-block;
-}
-
-textarea{
-    width: 60%;
-    height: 120px;
-}
-
-input[type="submit"]{
-    text-align: center;
-    margin-top: 60px;
-    width: 130px;
-    border-radius: 5px;
-}
-
-input[type="reset"]{
-    text-align: center;
-    margin-top: 60px;
-    width: 130px;
-    border-radius: 5px;
-}
-
-.form__comentarios--textarea{
-    display: inline-block;
-}
-
-
 
 footer{
     background-color: #000;
